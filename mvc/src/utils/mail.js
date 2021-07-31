@@ -1,6 +1,6 @@
 import { config } from 'dotenv'
 import nodemailer from 'nodemailer'
-import  config from '../config/config.js'
+import  config from '../../config/config.js'
 
 const transporter = nodemailer.createTransport({
   service: 'gmail',

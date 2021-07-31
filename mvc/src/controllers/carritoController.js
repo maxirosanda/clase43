@@ -1,4 +1,4 @@
-import Carrito from '../models/carrito.js'
+import Carrito from '../../models/carrito.js'
 import logger from 'pino'
 const loggerError = logger('./logs/error.log')
 

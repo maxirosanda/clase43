@@ -1,5 +1,5 @@
-import Carrito from '../models/carrito.js'
-import Pedido from '../models/pedidos.js'
+import Carrito from '../../models/carrito.js'
+import Pedido from '../../models/pedidos.js'
 import logger from 'pino'
 const loggerError = logger('./logs/error.log')
 const loggerWarn = logger('./logs/warn.log')

@@ -1,5 +1,5 @@
 
-import User from '../models/usuarios.js'
+import User from '../../models/usuarios.js'
 import logger from 'pino'
 
 const loggerError = logger('./logs/error.log')

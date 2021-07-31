@@ -1,7 +1,7 @@
 import { productoDTO } from './productoDTO.js';
 import fs from 'fs';
-import Producto from '../models/productos.js'
-import Mensaje from '../models/mensajes.js'
+import Producto from '../../models/productos.js'
+import Mensaje from '../../models/mensajes.js'
 
 class ProductoDAO {
 

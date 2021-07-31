@@ -1,4 +1,4 @@
-import Mensaje from '../models/mensajes.js'
+import Mensaje from '../../models/mensajes.js'
 import { enviarsms } from '../utils/sms.js'
 import logger from 'pino'
 const loggerError = logger('./logs/error.log')
